@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <script type="text/javascript" src="js/jquery.s2t.js"></script>
+
+
+   
+
+    <link rel="shortcut icon" href="img/head/浏览器Icon PNG.png">
+    <title>超体软件科技有限公司-WizardTech</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+
+
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <button id="btn-s2t" class="btn btn-sm btn-default navbar-btn navbar-right">繁</button>
+                    <script type="text/javascript">
+   var isSimplified = true;
+
+   $(function() {
+
+      $('#btn-convert').click(function() {
+         if (isSimplified) {
+            var text = $('#text-result').text();
+            
+            $('#text-result').text($.s2t(text));
+            $('#content-wap').s2t();
+            $('.para').s2t();
+
+            isSimplified = false;
+            $(this).text('繁');
+         } else {
+            var text = $('#text-result').text();
+            
+            $('#text-result').text($.t2s(text));
+            $('#content-wap').t2s();
+            $('.para').t2s();
+            
+            isSimplified = true;
+            $(this).text('简');
+         }
+      });
+   });
+   </script>
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-ar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top"><img src="img/组合LOGO-项目页.png" height="100px" ></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right nav-tabs">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="active">
+                        <a class="page-scroll" href="#introdution">公司简介</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#service">服务</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#platform">平台</a>
+                    </li>
+                    <li class="dropdown">
+                        <a class="page-scroll dropdown-toggle" id="dLabel" data-toggle="dropdown" data-target="数据目标" href="#project" aria-haspopup="ture" aria-expanded="false" >
+                            项目
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu" aria-labelledby="dLabel">
+                            <li><a href="#">城光荟景</a></li>
+                            <li><a href="#">贝缤纷</a></li>
+                            <li><a href="#">非遗明信片</a></li>
+                            <li><a href="#">金融C区</a></li>
+                            <li><a href="#">依云国际</a></li>
+                            <li><a href="#">南药王</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#partner">合作伙伴</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">团队</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+            <div class="intro-text">
+
+                <div class="intro-lead-in"></div>
+                <div class="intro-heading"></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="introdution">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">COMPANY</h1>
+                    <h2 class="text-muted text-center">公司简介</h2>
+                    <hr class="common">
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-8 col-md-offset-2 text-center">    
+                    <p class="text-center">超体科技Wizard Tech属于香港约克夏集团公司Yorkshire Group下属的互联网分公司。专注于AR增强现实以及VR虚拟现实的技术应用开发领域；新媒体互动解决方案及3D动画模型设计为一体的创新型数码科技公司。</p>
+                </div>
+                <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-md-offset-2 text-center">
+                    <h1 class="section-heading">跳跃数字科技·引领未来互动美学</h1>
+                    </div>                
+                <div class="row">          
+                    <div class="col-sm-6 col-md-4">
+                     <div class="thumbnail">      
+                        <img src="img/company/01.jpg" alt="">
+                        <div class="caption">
+                        <h3>AR增强现实</h3>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="col-sm-6 col-md-4">
+                         <div class="thumbnail">
+                        <img src="img/company/02.jpg" alt="">
+                        <div class="caption">
+                        <h3>VR虚拟现实</h3>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-sm-6 col-md-4">
+                         <div class="thumbnail">
+                        <img src="img/company/03.jpg" alt="">
+                        <div class="caption">
+                        <h3>体感互动系统</h3>
+                        </div>
+                    </div>
+                    </div>                             
+            </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="service" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">SERIVE</h1>
+                    <h2 class="text-muted text-center">服务</h2>
+                    <hr class="common">        
+                </div>
+            </div>            
+            <div class="row">
+             <div class="col-md-12 text-center portfolio-item">
+                <img src="img/serive/06.png" alt="">
+                <div class="col-xs-4 col-sm-6 portfolio-caption center-block">
+                        <h1 class="text-center"><strong>AR(增强现实）</strong></h1>
+                        <p class="text-muted text-center">AR（增强现实）是一种全新的人机交互技术，让您能利用电子产品将真实的环境和虚拟的物体实时地叠加到了同一个画面或空间同时存在。</p>
+                    </div>                          
+        </div>
+        <div class="col-md-12 text-center portfolio-item">
+              <img src="img/serive/05.png" class="col-md-6" alt="">
+              <div class="col-md-6 portfolio-caption center-block">
+                        <h1 class="text-center"><strong>VR(虚拟现实）</strong></h1>
+                        <p class="text-muted text-center">VR（虚拟现实）是综合利用计算机图形系统和各种现实及控制等接口设备，在计算机上生成的、可交互的三维环境中提供沉浸感觉的技术。</p>
+                    </div>
+        </div>
+        <div class="col-md-12 text-center portfolio-item">
+              <img src="img/serive/04.png" alt="">
+              <div class="col-xs-4 col-sm-6 portfolio-caption center-block">
+                        <h1 class="text-center"><strong>体感互动系统</strong></h1>
+                        <p class="text-muted text-center">体感互动系统基于动作跟踪技术，适合任何投影机，液晶板，LED大屏幕，等离子，数字视频墙等，将互动参与者的动作转换成图形互动回馈。</p>
+                    </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="platform">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="section-heading">PLATFORM</h1>
+                    <h2 class="text-muted text-center">平台</h2>
+                    <hr class="common">
+                </div>
+            </div>
+                   <p class="text-center col-md-8 col-md-offset-2">视趣平台是超体科技对外发布的首款AR体验平台，通过视趣平台，扫描特定区域，即可得到清晰的信息呈现。其简洁的界面、清晰的操作、流畅的体验。让感受变得更真实，让体验变得更有趣！</p>
+                   <img src="img/platform/07.jpg" class="img-responsive" alt="">                          
+        </div>
+    </section>
+
+    <!-- About Project -->
+    <section id="project" class="bg-light-gray">
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h1 class="section-heading">PROJECT</h1>
+                    <h2 class="text-muted text-center">项目</h2>
+                    <hr class="common">
+                </div>
+            </div>
+                   <div class="row">
+                    <nav class="navbar navbar-default">
+                    <div class="col-lg-2">
+                        <img src="img/project/1.png" style="width:150px;height:150px;" alt="">
+                        <a href="" target="_blank"></a>                     
+                        </div>
+                       <div class="col-lg-2">
+                        <img src="img/project/2.png" style="width:150px;height:150px;" alt="">
+                        <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                        <img src="img/project/3.png" style="width:150px;height:150px;" alt="">
+                        <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                        <img src="img/project/4.png" style="width:150px;height:150px;" alt="">
+                        <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                        <img src="img/project/5.png" style="width:150px;height:150px;"  alt="">
+                        <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                        <img src="img/project/6.png" style="width:150px;height:150px;" alt="">
+                        <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                        <img src="img/project/7.png" style="width:150px;height:150px;" alt="">
+                        <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                           <img src="img/project/8.png" style="width:150px;height:150px;" alt="">
+                           <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                           <img src="img/project/9.png" style="width:150px;height:150px;" alt="">
+                           <a href="" target="_blank"></a>
+                       </div>
+                       <div class="col-lg-2">
+                           <img src="img/project/10.png" style="width:150px;height:150px;" alt="">
+                           <a href="" target="_blank"></a>
+                       </div>
+                   </nav>
+            </div>
+        </div>
+    </section>
+
+    <section id="partner">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="section-heading">PARTNER</h1>
+                    <h2 class="text-muted text-center">合作伙伴</h2>
+                    <hr class="common">
+               
+                   <img min-width: 100% src="img/logos/08.jpg" alt=""> 
+               </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <h1 class="section-heading">GROUP</h1>
+                    <h2 class="text-muted text-center">团队</h2>
+                    <hr class="common">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+    <li data-target="#carousel-example-generic" data-slide-to="4"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="img/team/1.png" alt="img-responsive">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/team/2.png" alt="img-responsive">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    ...
+    <div class="item">
+      <img src="img/team/3.png" alt="img-responsive">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+    <div class="item">
+      <img src="img/team/4.png" alt="img-responsive">
+      <div class="carousel-caption">
+        ...
+      </div>
+    </div>
+  </div>
+
+  <!-- Controls -->
+  <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h5>WIZARD TECHNOLOGY</h5>
+                    <h6>超体软件科技有限公司</h6>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="input@name">姓名</label>
+                                    <input type="text" class="form-control" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="input@email">邮箱</label>
+                                    <input type="email" class="form-control" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <label for="input@phone">信息</label>
+                                    <input type="tel" class="form-control" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="clearfix"></div>
+                            <div class="text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">提交信息</button>
+                            </div>
+                        </div>
+                            <div class="col-md-6">
+                                <h7><strong>OUR ADDRESS</strong></h7>
+                                <br>
+                                <br>
+                                <address>0757-82062822<br> 
+                                    QQ:402974246<br>
+                                    postmaster@wizardtech.cn<br>
+                                    中国广东省佛山市南海瀚天科技城（政府示范区）
+                                    <br>
+                                    <br>
+                                    约克夏集团香港总部<br>
+                                    00852-23683810<br>
+                                    香港葵涌葵昌路10-24号美顺工业大厦7楼C座
+                                    </address> 
+                                    <hr class="normal">
+                                </div>
+                                    <div class="col-md-6">
+                                        <h7>WE ARE SOCIAL</h7>
+                                        <div class="col-md-4">
+                                    <ul class="list-inline social-buttons">
+                                    <li><a href="#"><img src="img/social/1.png" alt=""></a>
+                                    </li>
+                                    <li><a href="#"><img src="img/social/2.png" alt=""></a>
+                                    </li>                                    
+                                    </ul>
+                                    </div>
+                                    </div>                                
+                               </div> 
+                            </div>
+                            
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="text-center">
+                    <span class="copyright">Copyright &copy;2016</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+   
+
+    
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    
+    <!-- drapdown -->
+    <script src="http://cdn.bootcss.com/bootstrap/2.3.1/js/bootstrap-dropdown.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <script type='text/javascript' src="js/jquery.min.js"></script>
+    <script type='text/javascript' src="js/jquery.s2t.js"></script>
+    <script src="http://libs.baidu.com/jquery/2.1.1/jquery.min.js"></script>
+
+</body>
+
+</html>

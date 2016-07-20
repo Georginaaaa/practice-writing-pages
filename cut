@@ -1,0 +1,30 @@
+<div class="team-member">
+                        <img src="img/team/1.png" class="img-responsive img-thumbnail" alt="">
+                        <h1>关文华</h1>
+                        <p class="text-muted text-center">创办人</p>
+                        <p class="text-muted text-center">毕业于华南师范大学信息管理系。2013年3月创办PGY studio蒲公英工作室，正式开展AR增强现实与VR虚拟现实的技术项目开发。于2015年11月成立超体软件科技公司，进一步开展AR增强现实，VR虚拟现实以及大屏互动的技术项目开发。</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/2.png" class="img-responsive img-thumbnail" alt="">
+                        <h1>陆伟梁</h1>
+                        <p class="text-muted text-center">高级工程师</p>
+                        <p class="text-muted text-center">毕业于武汉理工大学，工商企业管理专业。曾任职维修技术主管及客户申诉主管，领航广告设计部美术设计。2013年10月在蒲公英软件科技公司负责软件UI设计，之后入职超体软件科技公司，负责硬件工程。</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/3.png" class="img-responsive img-thumbnail" alt="">
+                        <h1>吴嘉玲</h1>
+                        <p class="text-muted text-center">软件工程师</p>
+                        <p class="text-muted text-center">毕业于北京理工大学珠海学院，数字媒体技术专业。大学毕业后曾任职软件研发工程师，专业从事训练游戏开发。之后入职超体软件科技公司，负责AR软件方面程序的编写。</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-sm-6">
+                    <div class="team-member">
+                        <img src="img/team/4.png" class="img-responsive img-thumbnail" alt="">
+                        <h1>欧杰科</h1>
+                        <p class="text-muted text-center">3D美术设计师</p>
+                        <p class="text-muted text-center">曾接受深圳Gamegame培训机构的专业培训，3D场景设计专业。曾任职3D美术组长，负责过多款游戏的3D场景美术制作。之后入职超体软件科技公司，负责3D美术设计。</p>
+                    </div>
